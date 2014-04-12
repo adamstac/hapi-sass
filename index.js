@@ -57,7 +57,7 @@ module.exports = {
         plugin.route({
             method: 'GET',
             // todo: configuration based path
-            path: '/stylesheets/{file}.css',
+            path: '/' + routeName + '/{file}.css',
             handler: function (request, reply) {
 
 
